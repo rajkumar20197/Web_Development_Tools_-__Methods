@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "node server.js",
+    "dev": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "browserify-zlib": "^0.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.1",
+    "express": "^4.21.1",
+    "path": "^0.12.7",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "webpack": "^5.96.1",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "eslint": "^9.14.0",
+    "jest": "^29.7.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

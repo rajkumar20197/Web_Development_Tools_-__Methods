@@ -1,0 +1,27 @@
+.animal-list {
+    border: 2px solid black; 
+    padding: 20px;
+    margin: 20px;
+}
+
+.animal-list li {
+    margin-bottom: 10px;
+    list-style-type: none; 
+    position: relative;
+    padding-left: 30px; 
+}
+
+.animal-list li::before {
+    content: '\1F431'; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    line-height: 1.2; 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

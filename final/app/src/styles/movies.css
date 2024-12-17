@@ -1,0 +1,126 @@
+.movies-container {
+  padding: 1rem;
+}
+
+.movies-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.section-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.movie-count {
+  margin-left: auto;
+  background-color: #e2b718;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.movie-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.movie-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.movie-card-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.delete-button:hover {
+  opacity: 1;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.movie-card-content {
+  padding: 1rem;
+}
+
+.movie-info {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.movie-info:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  color: #7f8c8d;
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.value {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.movies-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.empty-icon {
+  width: 64px;
+  height: 64px;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.movies-empty h2 {
+  color: #2c3e50;
+  margin: 0 0 0.5rem;
+}
+
+.movies-empty p {
+  color: #7f8c8d;
+  margin: 0;
+}

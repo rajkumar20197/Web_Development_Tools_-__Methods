@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dfe7ec;
+    color: rgb(19, 19, 20);
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: rgb(233, 116, 116);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+main {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+#animal-list {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+#favt-animal {
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+    padding: 10px;
+}
+
+p::first-letter {
+    color: green;
+    font-size: 150%;
+    line-height: 1.6;
+}

@@ -1,0 +1,76 @@
+ body, html {
+  margin-top: 20px;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px 60px; 
+}
+
+.app {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 500px;
+  margin-top: 500px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading {
+  width: 100px;
+  height: 100px;
+}
+
+.login, .word-display {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.error {
+  color: rgb(141, 5, 5);
+  margin-top: 10px;
+}
+
+.logout-button {
+  margin-top: 20px;
+}
+
+input, button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(72, 170, 72);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: green;
+} 

@@ -1,0 +1,4 @@
+// This configuration specifies Babel presets for compiling modern JavaScript.
+{
+    "presets": ["@babel/preset-env"]
+  }

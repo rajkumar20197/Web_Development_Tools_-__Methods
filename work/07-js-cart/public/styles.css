@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4; 
+  color: #333;
+
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #4a90e2; 
+  color: white;
+  padding: 1rem 0; 
+  margin-bottom: 2rem; 
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#product-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+#cart {
+  background-color: #ffffff; 
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.quantity-input {
+  width: 50px;
+  border: 1px solid #4a90e2; 
+  border-radius: 5px;
+  padding: 5px;
+}
+.product img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.count {
+  border-radius: 50%;
+  padding: 2px 6px;
+  margin-left: 5px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+
+.footer {
+  font-size: large;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
+  background-color: #333; 
+  color: #fff;
+  border-top: 4px solid #4a90e2; 
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 0.9375rem 0; 
+  background-color: #4a90e2; 
+  color: white;
+  font-size: 0.9rem; 
+  box-shadow: 0 -0.125rem 0.375rem rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  margin: 0;
+}
+
+button {
+  background-color: #0bd716;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #a4b835;
+}
+
+button:focus {
+  outline: none;
+}
+
+

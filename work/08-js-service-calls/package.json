@@ -1,0 +1,23 @@
+{
+    "name": "single-page-word-app",
+    "version": "1.0.0",
+    "description": "Single page application for storing and changing a personal word",
+    "main": "src/app.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.1",
+      "cookie-parser": "^1.4.6",
+      "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.15.5",
+      "@babel/preset-env": "^7.15.6",
+      "webpack": "^5.51.1",
+      "webpack-cli": "^4.8.0",
+      "babel-loader": "^8.2.2"
+    }
+  }
+  

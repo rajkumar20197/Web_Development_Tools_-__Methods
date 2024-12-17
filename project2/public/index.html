@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UniChat </title>
+    <link rel="stylesheet" href="/styles.css"> 
+</head>
+<body>
+    <div id="app">                                              <!-- Main application container -->
+        <div id="loading" class="hidden">Loading...</div>       <!-- Loading indicator -->
+        
+        <div id="login-form">                                   <!-- User login form -->
+            <h2>Login</h2>
+            <form id="login">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-error" class="error hidden"></p>       <!-- Error message for login failures -->
+        </div>
+        
+        <div id="chat" class="hidden">                          <!-- Chat interface, shown after login -->
+            <h2>JS Chat</h2>
+            <div id="users">
+                <h3>Online Users</h3>
+                <ul id="user-list"></ul>                        <!-- List of online users -->
+            </div>
+            <div id="messages">
+                <h3>Messages</h3>
+                <ul id="message-list"></ul>                     <!-- List of chat messages -->
+            </div>
+            <form id="send-message">                             <!-- Form to send messages -->
+                <input type="text" id="message-input" required placeholder="Type your message...">
+                <button type="submit">Send</button>
+            </form>
+            <button id="logout">Logout</button>                  <!-- Logout button -->
+        </div>
+    </div>
+    
+    <script src="/bundle.js"></script>                          <!-- Main JavaScript file for functionality -->
+</body>
+</html>

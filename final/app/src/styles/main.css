@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #f0f2f5;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 1rem 4rem; 
+  min-height: 100vh;
+}
+
+.main-content {
+  margin: 2rem 0;
+}
+
+.error {
+  color: #ff4444;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.error {
+  border-color: #ff0000;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  display: block;
+}
+
+.movie-form input.error,
+.movie-form select.error {
+  border: 1px solid #ff0000;
+  background-color: #fff0f0;
+}
